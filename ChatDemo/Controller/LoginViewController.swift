@@ -9,10 +9,10 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var LoginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        LoginButton.setupButton()
         // Do any additional setup after loading the view.
 //        SampleLoginAPI(params: ["login_id": "hand", "password": "123456"]).execute { result in
 //            switch result {
@@ -46,7 +46,10 @@ class LoginViewController: UIViewController {
             }
         }
     }
-    
+}
 
-
+extension UIButton{
+    func setupButton(){
+        self.layer.cornerRadius = self.frame.height/2
+    }
 }

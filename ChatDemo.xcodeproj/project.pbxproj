@@ -29,6 +29,7 @@
 		C3CDC58826F331C0005A6726 /* NSMutableData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58226F331C0005A6726 /* NSMutableData+Extension.swift */; };
 		C3CDC58926F331C0005A6726 /* APIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58326F331C0005A6726 /* APIOperation.swift */; };
 		C3CDC58A26F331C0005A6726 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58426F331C0005A6726 /* Request.swift */; };
+		C3CDC58C26F350B8005A6726 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C3CDC58226F331C0005A6726 /* NSMutableData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Extension.swift"; sourceTree = "<group>"; };
 		C3CDC58326F331C0005A6726 /* APIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIOperation.swift; sourceTree = "<group>"; };
 		C3CDC58426F331C0005A6726 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CF9310A9CBA49DF1296F5DCC /* Pods_ChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E209E244E4EE403E443903 /* Pods_ChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -255,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */,
+				C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				C3534D8B26F1F43800752151 /* AppDelegate.swift in Sources */,
 				C3CDC57D26F331AC005A6726 /* SampleLoginAPI.swift in Sources */,
 				C3CDC57A26F331AC005A6726 /* SampleError.swift in Sources */,
+				C3CDC58C26F350B8005A6726 /* RegisterViewController.swift in Sources */,
 				C3CDC57C26F331AC005A6726 /* Meta.swift in Sources */,
 				C3CDC58726F331C0005A6726 /* Environment.swift in Sources */,
 				C3CDC57B26F331AC005A6726 /* DefaultEnvironment.swift in Sources */,

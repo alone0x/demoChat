@@ -11,8 +11,6 @@
 		57C8EE77688B78953086D089 /* Pods_ChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E209E244E4EE403E443903 /* Pods_ChatDemo.framework */; };
 		782F27DEB6881716E0EB6FA7 /* Pods_ChatDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9310A9CBA49DF1296F5DCC /* Pods_ChatDemoTests.framework */; };
 		C3534D8B26F1F43800752151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8A26F1F43800752151 /* AppDelegate.swift */; };
-		C3534D8D26F1F43800752151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8C26F1F43800752151 /* SceneDelegate.swift */; };
-		C3534D8F26F1F43800752151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8E26F1F43800752151 /* ViewController.swift */; };
 		C3534D9226F1F43800752151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9026F1F43800752151 /* Main.storyboard */; };
 		C3534D9426F1F43D00752151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9326F1F43D00752151 /* Assets.xcassets */; };
 		C3534D9726F1F43D00752151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */; };
@@ -30,6 +28,7 @@
 		C3534DD426F1F6C200752151 /* NSMutableData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCE26F1F6C200752151 /* NSMutableData+Extension.swift */; };
 		C3534DD526F1F6C200752151 /* APIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCF26F1F6C200752151 /* APIOperation.swift */; };
 		C3534DD626F1F6C200752151 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DD026F1F6C200752151 /* Request.swift */; };
+		C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +58,8 @@
 		BE106CE1A6A785E83E424915 /* Pods-ChatDemo-ChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo-ChatDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatDemo-ChatDemoUITests/Pods-ChatDemo-ChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3534D8726F1F43800752151 /* ChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3534D8A26F1F43800752151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3534D8C26F1F43800752151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3534D8E26F1F43800752151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3534D9126F1F43800752151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3534D9326F1F43D00752151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3534D9326F1F43D00752151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resource/Assets.xcassets; sourceTree = "<group>"; };
 		C3534D9626F1F43D00752151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3534D9826F1F43D00752151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3534D9D26F1F43E00752151 /* ChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +80,7 @@
 		C3534DCE26F1F6C200752151 /* NSMutableData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Extension.swift"; sourceTree = "<group>"; };
 		C3534DCF26F1F6C200752151 /* APIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIOperation.swift; sourceTree = "<group>"; };
 		C3534DD026F1F6C200752151 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CF9310A9CBA49DF1296F5DCC /* Pods_ChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E209E244E4EE403E443903 /* Pods_ChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,15 +161,16 @@
 		C3534D8926F1F43800752151 /* ChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C392A82826F2FB69007A0806 /* StoryBoard */,
 				C3534DD726F1F99300752151 /* AppDelegate */,
 				C3E6589D26F1F9D9004D0C52 /* Controller */,
 				C3E6589E26F1FA6E004D0C52 /* Model */,
+				C3E6589F26F1FFE7004D0C52 /* View */,
 				C3534DCA26F1F6C200752151 /* CoreNetwork */,
 				C3534DBC26F1F68200752151 /* Sample */,
-				C3534D9026F1F43800752151 /* Main.storyboard */,
-				C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */,
-				C3534D9826F1F43D00752151 /* Info.plist */,
+				C392A82726F2E8C3007A0806 /* Resource */,
 				C3534D9326F1F43D00752151 /* Assets.xcassets */,
+				C3534D9826F1F43D00752151 /* Info.plist */,
 			);
 			path = ChatDemo;
 			sourceTree = "<group>";
@@ -234,15 +233,30 @@
 			isa = PBXGroup;
 			children = (
 				C3534D8A26F1F43800752151 /* AppDelegate.swift */,
-				C3534D8C26F1F43800752151 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C392A82726F2E8C3007A0806 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C392A82826F2FB69007A0806 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */,
+				C3534D9026F1F43800752151 /* Main.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 		C3E6589D26F1F9D9004D0C52 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C3534D8E26F1F43800752151 /* ViewController.swift */,
+				C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +266,13 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C3E6589F26F1FFE7004D0C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,8 +516,8 @@
 				C3534DC626F1F68300752151 /* SampleError.swift in Sources */,
 				C3534DD426F1F6C200752151 /* NSMutableData+Extension.swift in Sources */,
 				C3534DD326F1F6C200752151 /* Environment.swift in Sources */,
+				C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */,
 				C3534DC726F1F68300752151 /* DefaultEnvironment.swift in Sources */,
-				C3534D8F26F1F43800752151 /* ViewController.swift in Sources */,
 				C3534DD226F1F6C200752151 /* URLRequest+Encoding.swift in Sources */,
 				C3534DD126F1F6C200752151 /* APIError.swift in Sources */,
 				C3534DD626F1F6C200752151 /* Request.swift in Sources */,
@@ -505,7 +526,6 @@
 				C3534DC826F1F68300752151 /* Meta.swift in Sources */,
 				C3534DC426F1F68300752151 /* SampleCreatePostAPI.swift in Sources */,
 				C3534DC926F1F68300752151 /* SampleLoginAPI.swift in Sources */,
-				C3534D8D26F1F43800752151 /* SceneDelegate.swift in Sources */,
 				C3534DC526F1F68300752151 /* SampleTodoAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

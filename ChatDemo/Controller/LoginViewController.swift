@@ -14,6 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var PassWordText: UITextField!
     @IBOutlet weak var LoginButton: UIButton!
     // test signout
+    
     override func viewWillAppear(_ animated: Bool) {
         if Auth.auth().currentUser != nil {
             try!  Auth.auth().signOut()
@@ -55,10 +56,13 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    
     @IBAction func ForgotPasswordButton(_ sender: Any) {
     }
+    
     @IBAction func LoginButton(_ sender: Any) {
     }
+    
     @IBAction func RegisterButton(_ sender: Any) {
         if #available(iOS 13.0, *) {
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "RegisterViewController") as! RegisterViewController

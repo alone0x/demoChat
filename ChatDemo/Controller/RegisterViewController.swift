@@ -28,6 +28,9 @@ class RegisterViewController: UIViewController {
     
     func showAlert(){
         let alert = UIAlertController(title: "Thông báo", message: "Email không hợp lệ", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "ok", style: .cancel, handler: { UIAlertAction in
+            print("cancel")
+        }))
         present(alert, animated: true)
     }
     

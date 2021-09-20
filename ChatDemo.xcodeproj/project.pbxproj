@@ -16,6 +16,7 @@
 		C3534D9726F1F43D00752151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */; };
 		C3534DA226F1F43E00752151 /* ChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DA126F1F43E00752151 /* ChatDemoTests.swift */; };
 		C3534DAD26F1F43E00752151 /* ChatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */; };
+		C374643326F8692700E6CFD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C374643226F8692700E6CFD7 /* GoogleService-Info.plist */; };
 		C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */; };
 		C3CDC57826F331AC005A6726 /* SampleCreatePostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */; };
 		C3CDC57926F331AC005A6726 /* SampleTodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */; };
@@ -69,6 +70,7 @@
 		C3534DA826F1F43E00752151 /* ChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDemoUITests.swift; sourceTree = "<group>"; };
 		C3534DAE26F1F43E00752151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C374643226F8692700E6CFD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCreatePostAPI.swift; sourceTree = "<group>"; };
 		C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTodoAPI.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				C392A82726F2E8C3007A0806 /* Resource */,
 				C3534D9326F1F43D00752151 /* Assets.xcassets */,
 				C3534D9826F1F43D00752151 /* Info.plist */,
+				C374643226F8692700E6CFD7 /* GoogleService-Info.plist */,
 			);
 			path = ChatDemo;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				C3534D9726F1F43D00752151 /* LaunchScreen.storyboard in Resources */,
 				C3534D9426F1F43D00752151 /* Assets.xcassets in Resources */,
 				C3534D9226F1F43800752151 /* Main.storyboard in Resources */,
+				C374643326F8692700E6CFD7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

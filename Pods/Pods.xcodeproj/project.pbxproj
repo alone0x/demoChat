@@ -53,7 +53,7 @@
 		1D925E3AB5619DA3EE8779EF4D592029 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
 		27EDE0AF7ED12C400CAF5526F5B90EE3 /* Pods-ChatDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatDemo.modulemap"; sourceTree = "<group>"; };
 		2C0FB5C53573528CD531B555A0AC92BA /* Pods-ChatDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatDemoTests-Info.plist"; sourceTree = "<group>"; };
-		35013EAF942EFCACFE7FA23FBB939B0E /* Pods-ChatDemo-ChatDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatDemo-ChatDemoUITests"; path = Pods_ChatDemo_ChatDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35013EAF942EFCACFE7FA23FBB939B0E /* Pods_ChatDemo_ChatDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemo_ChatDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B10C3F40F8F649DD9A03EC088E176B2 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		4308ADB9CCBB6DB028282F5778A4AE91 /* Pods-ChatDemo-ChatDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatDemo-ChatDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		47DDF0BD77CB1684DC86AEAD3764971B /* Pods-ChatDemo-ChatDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatDemo-ChatDemoUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -69,20 +69,20 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75DCF8C2CA9C6D3096E381A6F925F583 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		7F395F48075E087E856F22367B53F6B4 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		800C6470B490EDEB8BA08BC1967665D0 /* Pods-ChatDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatDemoTests"; path = Pods_ChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800C6470B490EDEB8BA08BC1967665D0 /* Pods_ChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822F79BF6E33FA01DE2B93FB82026204 /* Pods-ChatDemo-ChatDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatDemo-ChatDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		826494151A06B87370A0FB7AA99C27FE /* Pods-ChatDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatDemo"; path = Pods_ChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		826494151A06B87370A0FB7AA99C27FE /* Pods_ChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A87ECF1410BFA05B7BC4155C052BC /* Pods-ChatDemo-ChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatDemo-ChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97D1F27FF47DA16FB710F3DF44B539EF /* Pods-ChatDemo-ChatDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatDemo-ChatDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		990B0F7C0CA0225935DD056B6118C0FE /* Pods-ChatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BA144C1A09B8FFB43BACF710FA8A9E1 /* Pods-ChatDemo-ChatDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatDemo-ChatDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCE665E0399D48CF37A302D15FE2C31F /* Pods-ChatDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatDemo-frameworks.sh"; sourceTree = "<group>"; };
 		CAC0D02BD798F327AF1E83E7FDDDBC16 /* Pods-ChatDemo-ChatDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatDemo-ChatDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE0FDF1D77C971BCDE74840E1EC1BF72 /* Pods-ChatDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatDemo-dummy.m"; sourceTree = "<group>"; };
 		DBE011292C6FE045167A19B7B5F9AFA7 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		DE1C6279E1379CC6C22D5C5EA70517DF /* Pods-ChatDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF943A9E7F9E1054F28DC4BE134E39BA /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
 		F52000D822AB32A68FA6F43F2AA2EE47 /* Pods-ChatDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatDemo-Info.plist"; sourceTree = "<group>"; };
 		FA06DF23BEBA753252D76825B4CA1398 /* Pods-ChatDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatDemoTests-dummy.m"; sourceTree = "<group>"; };
@@ -128,10 +128,10 @@
 		0DB2ECA175B971F2B0CC631456635EEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				826494151A06B87370A0FB7AA99C27FE /* Pods-ChatDemo */,
-				35013EAF942EFCACFE7FA23FBB939B0E /* Pods-ChatDemo-ChatDemoUITests */,
-				800C6470B490EDEB8BA08BC1967665D0 /* Pods-ChatDemoTests */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+				826494151A06B87370A0FB7AA99C27FE /* Pods_ChatDemo.framework */,
+				35013EAF942EFCACFE7FA23FBB939B0E /* Pods_ChatDemo_ChatDemoUITests.framework */,
+				800C6470B490EDEB8BA08BC1967665D0 /* Pods_ChatDemoTests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,7 +173,6 @@
 				53539CB11378EFA95019B1B95B99D588 /* SwiftyJSON.swift */,
 				2786FAEF36B5444ABE002D2500B3912B /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -310,7 +309,7 @@
 			);
 			name = "Pods-ChatDemo";
 			productName = Pods_ChatDemo;
-			productReference = 826494151A06B87370A0FB7AA99C27FE /* Pods-ChatDemo */;
+			productReference = 826494151A06B87370A0FB7AA99C27FE /* Pods_ChatDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -328,7 +327,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8EF36D5F8F9C7EBBF00182664BC6B4B /* Pods-ChatDemo-ChatDemoUITests */ = {
@@ -347,7 +346,7 @@
 			);
 			name = "Pods-ChatDemo-ChatDemoUITests";
 			productName = Pods_ChatDemo_ChatDemoUITests;
-			productReference = 35013EAF942EFCACFE7FA23FBB939B0E /* Pods-ChatDemo-ChatDemoUITests */;
+			productReference = 35013EAF942EFCACFE7FA23FBB939B0E /* Pods_ChatDemo_ChatDemoUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F69F75C9583F4EB1947C27B0E6623BE8 /* Pods-ChatDemoTests */ = {
@@ -366,7 +365,7 @@
 			);
 			name = "Pods-ChatDemoTests";
 			productName = Pods_ChatDemoTests;
-			productReference = 800C6470B490EDEB8BA08BC1967665D0 /* Pods-ChatDemoTests */;
+			productReference = 800C6470B490EDEB8BA08BC1967665D0 /* Pods_ChatDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -504,6 +503,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,6 +540,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemoTests/Pods-ChatDemoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,6 +641,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemo/Pods-ChatDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -676,6 +678,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -711,6 +714,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemo/Pods-ChatDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -749,6 +753,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemoTests/Pods-ChatDemoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -786,6 +791,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemo-ChatDemoUITests/Pods-ChatDemo-ChatDemoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -890,6 +896,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ChatDemo-ChatDemoUITests/Pods-ChatDemo-ChatDemoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

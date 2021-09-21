@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="BLb-C6-Vbe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClR-Ui-tCv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="180"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k01-Wt-yvW">
+                                <rect key="frame" x="0.0" y="224" width="414" height="327"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="F2o-ZJ-ouY">
+                                        <rect key="frame" x="125" y="4" width="164" height="164"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="164" id="WDE-C2-LsN"/>
+                                            <constraint firstAttribute="height" constant="164" id="awT-8N-pNU"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Awesome chat" translatesAutoresizingMaskIntoConstraints="NO" id="8Oi-od-i5n">
+                                        <rect key="frame" x="79" y="156" width="271" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="271" id="VKu-oV-PDG"/>
+                                            <constraint firstAttribute="height" constant="53" id="Ynq-9x-EKM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8Oi-od-i5n" firstAttribute="top" secondItem="F2o-ZJ-ouY" secondAttribute="bottom" constant="-12" id="MN0-hs-fHs"/>
+                                    <constraint firstItem="F2o-ZJ-ouY" firstAttribute="centerX" secondItem="k01-Wt-yvW" secondAttribute="centerX" id="eyn-Bc-l5k"/>
+                                    <constraint firstItem="F2o-ZJ-ouY" firstAttribute="top" secondItem="k01-Wt-yvW" secondAttribute="top" constant="4" id="lcx-Ed-3x6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ClR-Ui-tCv" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.22" id="31z-IG-4Hm"/>
+                            <constraint firstItem="k01-Wt-yvW" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.4" id="5o0-yH-ott"/>
+                            <constraint firstAttribute="trailing" secondItem="ClR-Ui-tCv" secondAttribute="trailing" id="78c-ii-j6W"/>
+                            <constraint firstAttribute="bottom" secondItem="BLb-C6-Vbe" secondAttribute="bottom" id="8Qh-ZD-4pi"/>
+                            <constraint firstItem="BLb-C6-Vbe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9S6-zc-drd"/>
+                            <constraint firstItem="k01-Wt-yvW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AQp-pH-56u"/>
+                            <constraint firstItem="BLb-C6-Vbe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="BEW-IV-hQA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k01-Wt-yvW" secondAttribute="trailing" id="JEZ-a6-iyX"/>
+                            <constraint firstItem="ClR-Ui-tCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LeP-nd-2qi"/>
+                            <constraint firstAttribute="trailing" secondItem="BLb-C6-Vbe" secondAttribute="trailing" id="e8O-YT-eB2"/>
+                            <constraint firstItem="k01-Wt-yvW" firstAttribute="top" secondItem="ClR-Ui-tCv" secondAttribute="bottom" id="gK6-g5-ca6"/>
+                            <constraint firstItem="ClR-Ui-tCv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oa4-UE-fBa"/>
+                            <constraint firstItem="8Oi-od-i5n" firstAttribute="leading" secondItem="BLb-C6-Vbe" secondAttribute="trailing" constant="-335" id="tmQ-QI-B9u"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Awesome chat" width="269" height="31"/>
+        <image name="BG" width="375" height="812"/>
+        <image name="mail" width="164" height="164"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

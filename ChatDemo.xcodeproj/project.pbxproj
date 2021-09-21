@@ -11,25 +11,25 @@
 		57C8EE77688B78953086D089 /* Pods_ChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E209E244E4EE403E443903 /* Pods_ChatDemo.framework */; };
 		782F27DEB6881716E0EB6FA7 /* Pods_ChatDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9310A9CBA49DF1296F5DCC /* Pods_ChatDemoTests.framework */; };
 		C3534D8B26F1F43800752151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8A26F1F43800752151 /* AppDelegate.swift */; };
-		C3534D8D26F1F43800752151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8C26F1F43800752151 /* SceneDelegate.swift */; };
-		C3534D8F26F1F43800752151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534D8E26F1F43800752151 /* ViewController.swift */; };
 		C3534D9226F1F43800752151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9026F1F43800752151 /* Main.storyboard */; };
 		C3534D9426F1F43D00752151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9326F1F43D00752151 /* Assets.xcassets */; };
 		C3534D9726F1F43D00752151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */; };
 		C3534DA226F1F43E00752151 /* ChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DA126F1F43E00752151 /* ChatDemoTests.swift */; };
 		C3534DAD26F1F43E00752151 /* ChatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */; };
-		C3534DC426F1F68300752151 /* SampleCreatePostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DBD26F1F68200752151 /* SampleCreatePostAPI.swift */; };
-		C3534DC526F1F68300752151 /* SampleTodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DBE26F1F68200752151 /* SampleTodoAPI.swift */; };
-		C3534DC626F1F68300752151 /* SampleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DBF26F1F68200752151 /* SampleError.swift */; };
-		C3534DC726F1F68300752151 /* DefaultEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DC026F1F68300752151 /* DefaultEnvironment.swift */; };
-		C3534DC826F1F68300752151 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DC226F1F68300752151 /* Meta.swift */; };
-		C3534DC926F1F68300752151 /* SampleLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DC326F1F68300752151 /* SampleLoginAPI.swift */; };
-		C3534DD126F1F6C200752151 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCB26F1F6C200752151 /* APIError.swift */; };
-		C3534DD226F1F6C200752151 /* URLRequest+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCC26F1F6C200752151 /* URLRequest+Encoding.swift */; };
-		C3534DD326F1F6C200752151 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCD26F1F6C200752151 /* Environment.swift */; };
-		C3534DD426F1F6C200752151 /* NSMutableData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCE26F1F6C200752151 /* NSMutableData+Extension.swift */; };
-		C3534DD526F1F6C200752151 /* APIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DCF26F1F6C200752151 /* APIOperation.swift */; };
-		C3534DD626F1F6C200752151 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DD026F1F6C200752151 /* Request.swift */; };
+		C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */; };
+		C3CDC57826F331AC005A6726 /* SampleCreatePostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */; };
+		C3CDC57926F331AC005A6726 /* SampleTodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */; };
+		C3CDC57A26F331AC005A6726 /* SampleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57326F331AC005A6726 /* SampleError.swift */; };
+		C3CDC57B26F331AC005A6726 /* DefaultEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57426F331AC005A6726 /* DefaultEnvironment.swift */; };
+		C3CDC57C26F331AC005A6726 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57626F331AC005A6726 /* Meta.swift */; };
+		C3CDC57D26F331AC005A6726 /* SampleLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57726F331AC005A6726 /* SampleLoginAPI.swift */; };
+		C3CDC58526F331C0005A6726 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57F26F331C0005A6726 /* APIError.swift */; };
+		C3CDC58626F331C0005A6726 /* URLRequest+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58026F331C0005A6726 /* URLRequest+Encoding.swift */; };
+		C3CDC58726F331C0005A6726 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58126F331C0005A6726 /* Environment.swift */; };
+		C3CDC58826F331C0005A6726 /* NSMutableData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58226F331C0005A6726 /* NSMutableData+Extension.swift */; };
+		C3CDC58926F331C0005A6726 /* APIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58326F331C0005A6726 /* APIOperation.swift */; };
+		C3CDC58A26F331C0005A6726 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58426F331C0005A6726 /* Request.swift */; };
+		C3CDC58C26F350B8005A6726 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,8 @@
 		BE106CE1A6A785E83E424915 /* Pods-ChatDemo-ChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo-ChatDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatDemo-ChatDemoUITests/Pods-ChatDemo-ChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3534D8726F1F43800752151 /* ChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3534D8A26F1F43800752151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3534D8C26F1F43800752151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3534D8E26F1F43800752151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3534D9126F1F43800752151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3534D9326F1F43D00752151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3534D9326F1F43D00752151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resource/Assets.xcassets; sourceTree = "<group>"; };
 		C3534D9626F1F43D00752151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3534D9826F1F43D00752151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3534D9D26F1F43E00752151 /* ChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,18 +69,20 @@
 		C3534DA826F1F43E00752151 /* ChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDemoUITests.swift; sourceTree = "<group>"; };
 		C3534DAE26F1F43E00752151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3534DBD26F1F68200752151 /* SampleCreatePostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCreatePostAPI.swift; sourceTree = "<group>"; };
-		C3534DBE26F1F68200752151 /* SampleTodoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTodoAPI.swift; sourceTree = "<group>"; };
-		C3534DBF26F1F68200752151 /* SampleError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleError.swift; sourceTree = "<group>"; };
-		C3534DC026F1F68300752151 /* DefaultEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultEnvironment.swift; sourceTree = "<group>"; };
-		C3534DC226F1F68300752151 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
-		C3534DC326F1F68300752151 /* SampleLoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLoginAPI.swift; sourceTree = "<group>"; };
-		C3534DCB26F1F6C200752151 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		C3534DCC26F1F6C200752151 /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Encoding.swift"; sourceTree = "<group>"; };
-		C3534DCD26F1F6C200752151 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		C3534DCE26F1F6C200752151 /* NSMutableData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Extension.swift"; sourceTree = "<group>"; };
-		C3534DCF26F1F6C200752151 /* APIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIOperation.swift; sourceTree = "<group>"; };
-		C3534DD026F1F6C200752151 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCreatePostAPI.swift; sourceTree = "<group>"; };
+		C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTodoAPI.swift; sourceTree = "<group>"; };
+		C3CDC57326F331AC005A6726 /* SampleError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleError.swift; sourceTree = "<group>"; };
+		C3CDC57426F331AC005A6726 /* DefaultEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultEnvironment.swift; sourceTree = "<group>"; };
+		C3CDC57626F331AC005A6726 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		C3CDC57726F331AC005A6726 /* SampleLoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLoginAPI.swift; sourceTree = "<group>"; };
+		C3CDC57F26F331C0005A6726 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		C3CDC58026F331C0005A6726 /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Encoding.swift"; sourceTree = "<group>"; };
+		C3CDC58126F331C0005A6726 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		C3CDC58226F331C0005A6726 /* NSMutableData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Extension.swift"; sourceTree = "<group>"; };
+		C3CDC58326F331C0005A6726 /* APIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIOperation.swift; sourceTree = "<group>"; };
+		C3CDC58426F331C0005A6726 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CF9310A9CBA49DF1296F5DCC /* Pods_ChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E209E244E4EE403E443903 /* Pods_ChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,15 +163,14 @@
 		C3534D8926F1F43800752151 /* ChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C392A82826F2FB69007A0806 /* StoryBoard */,
 				C3534DD726F1F99300752151 /* AppDelegate */,
 				C3E6589D26F1F9D9004D0C52 /* Controller */,
 				C3E6589E26F1FA6E004D0C52 /* Model */,
-				C3534DCA26F1F6C200752151 /* CoreNetwork */,
-				C3534DBC26F1F68200752151 /* Sample */,
-				C3534D9026F1F43800752151 /* Main.storyboard */,
-				C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */,
-				C3534D9826F1F43D00752151 /* Info.plist */,
+				C3E6589F26F1FFE7004D0C52 /* View */,
+				C392A82726F2E8C3007A0806 /* Resource */,
 				C3534D9326F1F43D00752151 /* Assets.xcassets */,
+				C3534D9826F1F43D00752151 /* Info.plist */,
 			);
 			path = ChatDemo;
 			sourceTree = "<group>";
@@ -194,55 +193,71 @@
 			path = ChatDemoUITests;
 			sourceTree = "<group>";
 		};
-		C3534DBC26F1F68200752151 /* Sample */ = {
-			isa = PBXGroup;
-			children = (
-				C3534DBD26F1F68200752151 /* SampleCreatePostAPI.swift */,
-				C3534DBE26F1F68200752151 /* SampleTodoAPI.swift */,
-				C3534DBF26F1F68200752151 /* SampleError.swift */,
-				C3534DC026F1F68300752151 /* DefaultEnvironment.swift */,
-				C3534DC126F1F68300752151 /* Login */,
-			);
-			name = Sample;
-			path = "../../baseapi-master/BaseAPI/Sample";
-			sourceTree = "<group>";
-		};
-		C3534DC126F1F68300752151 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				C3534DC226F1F68300752151 /* Meta.swift */,
-				C3534DC326F1F68300752151 /* SampleLoginAPI.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		C3534DCA26F1F6C200752151 /* CoreNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				C3534DCB26F1F6C200752151 /* APIError.swift */,
-				C3534DCC26F1F6C200752151 /* URLRequest+Encoding.swift */,
-				C3534DCD26F1F6C200752151 /* Environment.swift */,
-				C3534DCE26F1F6C200752151 /* NSMutableData+Extension.swift */,
-				C3534DCF26F1F6C200752151 /* APIOperation.swift */,
-				C3534DD026F1F6C200752151 /* Request.swift */,
-			);
-			name = CoreNetwork;
-			path = "../../../Downloads/baseapi-master/BaseAPI/CoreNetwork";
-			sourceTree = "<group>";
-		};
 		C3534DD726F1F99300752151 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				C3534D8A26F1F43800752151 /* AppDelegate.swift */,
-				C3534D8C26F1F43800752151 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		C392A82726F2E8C3007A0806 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C392A82826F2FB69007A0806 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */,
+				C3534D9026F1F43800752151 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C3CDC57026F331AC005A6726 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */,
+				C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */,
+				C3CDC57326F331AC005A6726 /* SampleError.swift */,
+				C3CDC57426F331AC005A6726 /* DefaultEnvironment.swift */,
+				C3CDC57526F331AC005A6726 /* Login */,
+			);
+			name = Sample;
+			path = ChatDemo/Sample;
+			sourceTree = SOURCE_ROOT;
+		};
+		C3CDC57526F331AC005A6726 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C3CDC57626F331AC005A6726 /* Meta.swift */,
+				C3CDC57726F331AC005A6726 /* SampleLoginAPI.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C3CDC57E26F331C0005A6726 /* CoreNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				C3CDC57F26F331C0005A6726 /* APIError.swift */,
+				C3CDC58026F331C0005A6726 /* URLRequest+Encoding.swift */,
+				C3CDC58126F331C0005A6726 /* Environment.swift */,
+				C3CDC58226F331C0005A6726 /* NSMutableData+Extension.swift */,
+				C3CDC58326F331C0005A6726 /* APIOperation.swift */,
+				C3CDC58426F331C0005A6726 /* Request.swift */,
+			);
+			name = CoreNetwork;
+			path = ChatDemo/CoreNetwork;
+			sourceTree = SOURCE_ROOT;
+		};
 		C3E6589D26F1F9D9004D0C52 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C3534D8E26F1F43800752151 /* ViewController.swift */,
+				C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */,
+				C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,8 +265,17 @@
 		C3E6589E26F1FA6E004D0C52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C3CDC57E26F331C0005A6726 /* CoreNetwork */,
+				C3CDC57026F331AC005A6726 /* Sample */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C3E6589F26F1FFE7004D0C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,21 +516,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3534DC626F1F68300752151 /* SampleError.swift in Sources */,
-				C3534DD426F1F6C200752151 /* NSMutableData+Extension.swift in Sources */,
-				C3534DD326F1F6C200752151 /* Environment.swift in Sources */,
-				C3534DC726F1F68300752151 /* DefaultEnvironment.swift in Sources */,
-				C3534D8F26F1F43800752151 /* ViewController.swift in Sources */,
-				C3534DD226F1F6C200752151 /* URLRequest+Encoding.swift in Sources */,
-				C3534DD126F1F6C200752151 /* APIError.swift in Sources */,
-				C3534DD626F1F6C200752151 /* Request.swift in Sources */,
+				C3CDC57926F331AC005A6726 /* SampleTodoAPI.swift in Sources */,
+				C3CDC57826F331AC005A6726 /* SampleCreatePostAPI.swift in Sources */,
+				C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */,
 				C3534D8B26F1F43800752151 /* AppDelegate.swift in Sources */,
-				C3534DD526F1F6C200752151 /* APIOperation.swift in Sources */,
-				C3534DC826F1F68300752151 /* Meta.swift in Sources */,
-				C3534DC426F1F68300752151 /* SampleCreatePostAPI.swift in Sources */,
-				C3534DC926F1F68300752151 /* SampleLoginAPI.swift in Sources */,
-				C3534D8D26F1F43800752151 /* SceneDelegate.swift in Sources */,
-				C3534DC526F1F68300752151 /* SampleTodoAPI.swift in Sources */,
+				C3CDC57D26F331AC005A6726 /* SampleLoginAPI.swift in Sources */,
+				C3CDC57A26F331AC005A6726 /* SampleError.swift in Sources */,
+				C3CDC58C26F350B8005A6726 /* RegisterViewController.swift in Sources */,
+				C3CDC57C26F331AC005A6726 /* Meta.swift in Sources */,
+				C3CDC58726F331C0005A6726 /* Environment.swift in Sources */,
+				C3CDC57B26F331AC005A6726 /* DefaultEnvironment.swift in Sources */,
+				C3CDC58826F331C0005A6726 /* NSMutableData+Extension.swift in Sources */,
+				C3CDC58926F331C0005A6726 /* APIOperation.swift in Sources */,
+				C3CDC58A26F331C0005A6726 /* Request.swift in Sources */,
+				C3CDC58626F331C0005A6726 /* URLRequest+Encoding.swift in Sources */,
+				C3CDC58526F331C0005A6726 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

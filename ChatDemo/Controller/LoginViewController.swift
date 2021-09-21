@@ -7,12 +7,25 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UIScrollViewDelegate{
 
     @IBOutlet weak var LoginButton: UIButton!
+    @IBOutlet weak var ScrollView: UIScrollView!
+    
+    @IBOutlet weak var contentView: UIView!
+    
+    @IBOutlet weak var HeaderView: UIView!
+    
+    @IBOutlet weak var BodyView: UIView!
+    
+    @IBOutlet weak var FooterVIew: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         LoginButton.setupButton()
+        
+//        if let scrollview =  ScrollView{
+//        scrollview.contentSize = CGSize(width: scrollview.contentSize.width,height: scrollview.frame.size.height)
+//        }
         // Do any additional setup after loading the view.
 //        SampleLoginAPI(params: ["login_id": "hand", "password": "123456"]).execute { result in
 //            switch result {
@@ -44,6 +57,18 @@ class LoginViewController: UIViewController {
             case .failure(let error):
                 print(error.localizedDescription)
             }
+        }
+    }
+    
+    @IBAction func forgotPass(_ sender: Any) {
+    }
+    
+    @IBAction func registerAcountButton(_ sender: UIButton) {
+        if #available(iOS 13.0, *) {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "RegisterViewController") as! RegisterViewController
+            navigationController?.pushViewController(vc, animated: true)
+        } else {
+            // Fallback on earlier versions
         }
     }
 }

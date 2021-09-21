@@ -17,6 +17,11 @@
 		C3534DA226F1F43E00752151 /* ChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DA126F1F43E00752151 /* ChatDemoTests.swift */; };
 		C3534DAD26F1F43E00752151 /* ChatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */; };
 		C374643326F8692700E6CFD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C374643226F8692700E6CFD7 /* GoogleService-Info.plist */; };
+		C374643826F97D3000E6CFD7 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374643726F97D3000E6CFD7 /* extension.swift */; };
+		C374643A26F97E8C00E6CFD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374643926F97E8C00E6CFD7 /* HomeViewController.swift */; };
+		C374643E26F991EA00E6CFD7 /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C374643D26F991EA00E6CFD7 /* Friends.storyboard */; };
+		C374644026F9925900E6CFD7 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374643F26F9925900E6CFD7 /* FriendsViewController.swift */; };
+		C374644526F9C39E00E6CFD7 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374644426F9C39E00E6CFD7 /* DatabaseManager.swift */; };
 		C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */; };
 		C3CDC57826F331AC005A6726 /* SampleCreatePostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */; };
 		C3CDC57926F331AC005A6726 /* SampleTodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */; };
@@ -71,6 +76,11 @@
 		C3534DAC26F1F43E00752151 /* ChatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDemoUITests.swift; sourceTree = "<group>"; };
 		C3534DAE26F1F43E00752151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C374643226F8692700E6CFD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C374643726F97D3000E6CFD7 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		C374643926F97E8C00E6CFD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C374643D26F991EA00E6CFD7 /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		C374643F26F9925900E6CFD7 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C374644426F9C39E00E6CFD7 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C3CDC57126F331AC005A6726 /* SampleCreatePostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCreatePostAPI.swift; sourceTree = "<group>"; };
 		C3CDC57226F331AC005A6726 /* SampleTodoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTodoAPI.swift; sourceTree = "<group>"; };
@@ -172,6 +182,7 @@
 				C3E6589F26F1FFE7004D0C52 /* View */,
 				C392A82726F2E8C3007A0806 /* Resource */,
 				C3534D9326F1F43D00752151 /* Assets.xcassets */,
+				C374643626F97CDF00E6CFD7 /* Extension */,
 				C3534D9826F1F43D00752151 /* Info.plist */,
 				C374643226F8692700E6CFD7 /* GoogleService-Info.plist */,
 			);
@@ -204,6 +215,40 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		C374643426F97C7700E6CFD7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */,
+				C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C374643526F97C8E00E6CFD7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C374643926F97E8C00E6CFD7 /* HomeViewController.swift */,
+				C374643F26F9925900E6CFD7 /* FriendsViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C374643626F97CDF00E6CFD7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C374643726F97D3000E6CFD7 /* extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C374644126F9C36400E6CFD7 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				C374644426F9C39E00E6CFD7 /* DatabaseManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
 		C392A82726F2E8C3007A0806 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +261,7 @@
 			children = (
 				C3534D9526F1F43D00752151 /* LaunchScreen.storyboard */,
 				C3534D9026F1F43800752151 /* Main.storyboard */,
+				C374643D26F991EA00E6CFD7 /* Friends.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -259,8 +305,8 @@
 		C3E6589D26F1F9D9004D0C52 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C37DFD6D26F3236F0060BB35 /* LoginViewController.swift */,
-				C3CDC58B26F350B8005A6726 /* RegisterViewController.swift */,
+				C374643526F97C8E00E6CFD7 /* Main */,
+				C374643426F97C7700E6CFD7 /* Auth */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +314,7 @@
 		C3E6589E26F1FA6E004D0C52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C374644126F9C36400E6CFD7 /* DataBase */,
 				C3CDC57E26F331C0005A6726 /* CoreNetwork */,
 				C3CDC57026F331AC005A6726 /* Sample */,
 			);
@@ -390,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3534D9726F1F43D00752151 /* LaunchScreen.storyboard in Resources */,
+				C374643E26F991EA00E6CFD7 /* Friends.storyboard in Resources */,
 				C3534D9426F1F43D00752151 /* Assets.xcassets in Resources */,
 				C3534D9226F1F43800752151 /* Main.storyboard in Resources */,
 				C374643326F8692700E6CFD7 /* GoogleService-Info.plist in Resources */,
@@ -523,14 +571,18 @@
 				C3CDC57926F331AC005A6726 /* SampleTodoAPI.swift in Sources */,
 				C3CDC57826F331AC005A6726 /* SampleCreatePostAPI.swift in Sources */,
 				C37DFD6E26F3236F0060BB35 /* LoginViewController.swift in Sources */,
+				C374643A26F97E8C00E6CFD7 /* HomeViewController.swift in Sources */,
 				C3534D8B26F1F43800752151 /* AppDelegate.swift in Sources */,
 				C3CDC57D26F331AC005A6726 /* SampleLoginAPI.swift in Sources */,
 				C3CDC57A26F331AC005A6726 /* SampleError.swift in Sources */,
 				C3CDC58C26F350B8005A6726 /* RegisterViewController.swift in Sources */,
+				C374643826F97D3000E6CFD7 /* extension.swift in Sources */,
 				C3CDC57C26F331AC005A6726 /* Meta.swift in Sources */,
+				C374644026F9925900E6CFD7 /* FriendsViewController.swift in Sources */,
 				C3CDC58726F331C0005A6726 /* Environment.swift in Sources */,
 				C3CDC57B26F331AC005A6726 /* DefaultEnvironment.swift in Sources */,
 				C3CDC58826F331C0005A6726 /* NSMutableData+Extension.swift in Sources */,
+				C374644526F9C39E00E6CFD7 /* DatabaseManager.swift in Sources */,
 				C3CDC58926F331C0005A6726 /* APIOperation.swift in Sources */,
 				C3CDC58A26F331C0005A6726 /* Request.swift in Sources */,
 				C3CDC58626F331C0005A6726 /* URLRequest+Encoding.swift in Sources */,

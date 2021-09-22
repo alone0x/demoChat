@@ -6,14 +6,14 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseFirestore
 import FirebaseAuth
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var mailText: UITextField!
     @IBOutlet weak var PassWordText: UITextField!
     @IBOutlet weak var LoginButton: UIButton!
-  //  private var database = Database.database().reference()
+    private var database = Firestore.firestore()
     // test signout
     
     override func viewWillAppear(_ animated: Bool) {
@@ -24,12 +24,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         LoginButton.setupButton()
-//        let object : [String : Any] = [
-//            "name" : "bui trung thanh" as NSObject
-//        ]
-//        database.child("Something").setValue(object)
-//
-        // Do any additional setup after loading the view.
+        
 //        SampleLoginAPI(params: ["login_id": "hand", "password": "123456"]).execute { result in
 //            switch result {
 //            case .success(let response):
@@ -61,6 +56,11 @@ class LoginViewController: UIViewController {
                 print(error.localizedDescription)
             }
         }
+    }
+    
+    func writeData(data : String){
+        let doc = database.document("name/pass")
+        doc.setData(["text" : data])
     }
     
     func showAlert(mes : String){

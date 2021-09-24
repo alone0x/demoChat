@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController, UIScrollViewDelegate{
+class LoginViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var ScrollView: UIScrollView!
@@ -73,8 +73,8 @@ class LoginViewController: UIViewController, UIScrollViewDelegate{
     }
 }
 
-extension UIButton{
-    func setupButton(){
+extension UIButton {
+    func setupButton() {
         self.layer.cornerRadius = self.frame.height/2
     }
 }

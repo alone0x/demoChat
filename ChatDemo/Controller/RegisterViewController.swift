@@ -26,7 +26,7 @@ class RegisterViewController: UIViewController {
         return emailPred.evaluate(with: email)
     }
     
-    func showAlert(){
+    func showAlert() {
         let alert = UIAlertController(title: "Thông báo", message: "Email không hợp lệ", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "ok", style: .cancel, handler: { UIAlertAction in
             print("cancel")
@@ -47,7 +47,7 @@ class RegisterViewController: UIViewController {
 //                    }
                     print("da dang ki")
                 }
-            } else {
+            }else {
                 self.showAlert()
                 
             }

@@ -5,9 +5,11 @@ target 'ChatDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'SwiftyJSON', '~> 4.1.0'
-
-
-
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
   # Pods for ChatDemo
 
   target 'ChatDemoTests' do

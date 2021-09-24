@@ -6,12 +6,13 @@
 //
 
 import Foundation
-import FirebaseDatabase
+import FirebaseFirestore
 
-final class DatabaseManage{
-    static var shared = DatabaseManage()
-    private let database = Database.database().reference()
-    func setUpDataBase(){
-        database.child("user").setValue(["name":nil])
+final class DatabaseManager {
+    let database =  Firestore.firestore()
+    static var shared = DatabaseManager()
+    func writeData(text: String){
+        let doc =  database.document("buitrungthanh/ex")
+        doc.setData(["text": text])
     }
 }

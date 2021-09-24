@@ -13,7 +13,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var mailText: UITextField!
     @IBOutlet weak var PassWordText: UITextField!
     @IBOutlet weak var LoginButton: UIButton!
-  //  private var database = Database.database().reference()
+    //private var database = Database.database().reference()
     // test signout
     
     override func viewWillAppear(_ animated: Bool) {
@@ -63,7 +63,7 @@ class LoginViewController: UIViewController {
         }
     }
     
-    func showAlert(mes : String){
+    func showAlert(mes : String) {
         let alert = UIAlertController(title: "Thông báo", message: mes, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "ok", style: .cancel, handler: { UIAlertAction in
             print("cancel")
@@ -100,7 +100,7 @@ class LoginViewController: UIViewController {
                     self?.LoginButton.backgroundColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
                     self?.showAlert(mes: "Lỗi! Hãy đăng nhập lại")
                 }
-                if Auth.auth().currentUser != nil{
+                if Auth.auth().currentUser != nil {
                     //self?.showAlert(mes: "Đăng nhập thành công")
                     if #available(iOS 13.0, *) {
                         let homeVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "HomeViewController") as! HomeViewController
@@ -109,7 +109,6 @@ class LoginViewController: UIViewController {
                     } else {
                         // Fallback on earlier versions
                     }
-                    
                 }
             }
         }

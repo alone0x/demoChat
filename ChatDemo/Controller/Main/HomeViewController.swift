@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseDatabase
+import FirebaseFirestore
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
@@ -14,7 +15,8 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var nummberMess: UIView!
     @IBOutlet weak var CollectionviewContent: UIView!
-
+    let database = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         TabbarView.setCorner(size: 25)
@@ -22,6 +24,16 @@ class HomeViewController: UIViewController {
         nummberMess.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         CollectionviewContent.setCorner(size: 30)
         searchView.setCorner(size: searchView.frame.height/2)
+        let docRef =  database.document("buitrungthanh/user")
+        docRef.getDocument { DocumentSnapshot, Error in
+            guard let data = DocumentSnapshot?.data(), Error == nil else {
+              return
+            }
+            print(data)
+        }
+        DatabaseManager.shared.writeData(text: "buitrungthanh is here")
+        
+        //DatabaseManager.shared.writeData(text: "aa")
         // Do any additional setup after loading the view.
     }
 
@@ -38,7 +50,8 @@ class HomeViewController: UIViewController {
                 // Fallback on earlier versions
             }
         }
-        if tag == 2{
+        
+        if tag == 2 {
             if #available(iOS 13.0, *) {
                 let FriendVC = UIStoryboard(name: "Friends", bundle: nil).instantiateViewController(identifier: "FriendsViewController") as! FriendsViewController
                 contentView.addSubview(FriendVC.view)
@@ -48,6 +61,7 @@ class HomeViewController: UIViewController {
                 // Fallback on earlier versions
             }
         }
+        
         if tag == 3{
             if #available(iOS 13.0, *) {
                 let FriendVC = UIStoryboard(name: "Friends", bundle: nil).instantiateViewController(identifier: "FriendsViewController") as! FriendsViewController

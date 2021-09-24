@@ -26,7 +26,7 @@ class RegisterViewController: UIViewController {
         return emailPred.evaluate(with: email)
     }
     
-    func showAlert(mes : String){
+    func showAlert(mes : String) {
         let alert = UIAlertController(title: "Thông báo", message: mes, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "ok", style: .cancel, handler: { UIAlertAction in
             print("cancel")
@@ -39,8 +39,8 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func RegisterButton(_ sender: Any) {
-        if let email = EmailTetxt.text , let password = PassWordText.text{
-            if isValidEmail(email: email){
+        if let email = EmailTetxt.text , let password = PassWordText.text {
+            if isValidEmail(email: email) {
                 Auth.auth().createUser(withEmail: email , password: password) {[weak self] rerult, Error in
 //                    guard let self =  self else {
 //                        return
@@ -48,9 +48,8 @@ class RegisterViewController: UIViewController {
                     self?.showAlert(mes: "Đăng kí thành công")
                     self?.navigationController?.popViewController(animated: true)
                 }
-            } else {
+            }else {
                 self.showAlert(mes :"Email không hợp lệ")
-                
             }
         }
     }

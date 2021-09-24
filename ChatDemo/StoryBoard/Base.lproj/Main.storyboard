@@ -921,6 +921,13 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSR-g1-xCn" userLabel="buttonNewMess">
+                                        <rect key="frame" x="363" y="53" width="43" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="CiR-vJ-NJ8"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create new message" translatesAutoresizingMaskIntoConstraints="NO" id="akH-vg-kWm">
                                         <rect key="frame" x="367" y="58" width="35" height="35"/>
                                         <constraints>
@@ -994,14 +1001,17 @@
                                     <constraint firstAttribute="trailing" secondItem="Reg-VE-f7Y" secondAttribute="trailing" id="9yT-33-f55"/>
                                     <constraint firstItem="Reg-VE-f7Y" firstAttribute="leading" secondItem="dZY-xr-Sc7" secondAttribute="leading" id="CDY-49-eLH"/>
                                     <constraint firstItem="AgX-6q-A80" firstAttribute="top" secondItem="0oP-eU-8oD" secondAttribute="bottom" constant="24" id="GXh-un-2q7"/>
+                                    <constraint firstAttribute="trailing" secondItem="CSR-g1-xCn" secondAttribute="trailing" constant="8" id="JzE-Kd-lkw"/>
                                     <constraint firstItem="0oP-eU-8oD" firstAttribute="top" secondItem="dZY-xr-Sc7" secondAttribute="top" constant="54" id="VhK-Sf-9mo"/>
                                     <constraint firstItem="AgX-6q-A80" firstAttribute="leading" secondItem="dZY-xr-Sc7" secondAttribute="leading" constant="12" id="XQA-ki-6Mr"/>
                                     <constraint firstAttribute="trailing" secondItem="AgX-6q-A80" secondAttribute="trailing" constant="12" id="aA7-eK-Ko6"/>
+                                    <constraint firstItem="CSR-g1-xCn" firstAttribute="centerY" secondItem="akH-vg-kWm" secondAttribute="centerY" id="ayB-2S-ATU"/>
                                     <constraint firstItem="Reg-VE-f7Y" firstAttribute="top" secondItem="AgX-6q-A80" secondAttribute="bottom" constant="24" id="bou-hu-hoR"/>
                                     <constraint firstAttribute="trailing" secondItem="akH-vg-kWm" secondAttribute="trailing" constant="12" id="cNL-rG-UVN"/>
                                     <constraint firstAttribute="bottom" secondItem="Reg-VE-f7Y" secondAttribute="bottom" id="e72-XP-5ob"/>
                                     <constraint firstItem="0oP-eU-8oD" firstAttribute="leading" secondItem="dZY-xr-Sc7" secondAttribute="leading" constant="12" id="nBj-6Y-SkE"/>
                                     <constraint firstItem="akH-vg-kWm" firstAttribute="centerY" secondItem="0oP-eU-8oD" secondAttribute="centerY" id="obU-40-lMQ"/>
+                                    <constraint firstItem="CSR-g1-xCn" firstAttribute="centerX" secondItem="akH-vg-kWm" secondAttribute="centerX" id="sOe-dS-OCp"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Twa-S4-riZ" userLabel="footerView">
